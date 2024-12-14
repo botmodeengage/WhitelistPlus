@@ -1,0 +1,16 @@
+name: WhitelistPlus
+main: com.botmodeengage.whitelistplus.WhitelistPlus
+version: 1.0.1
+api-version: 1.21
+commands:
+  wlp:
+    description: WhitelistPlus main command
+    usage: /wlp <subcommand>
+    aliases: [whitelistplus]
+permissions:
+  whitelistplus.*:
+    description: Allows all whitelistplus commands and functions
+    default: op
+  whitelistplus.receive:
+    description: Allows receiving join attempt messages
+    default: op
